@@ -14,12 +14,3 @@ animetyp1 = soup.find('div', class_= 'anime-info').find_all("dd")
 print(animetyp[0].text, animetyp1[0].text)
 print(animetyp[1].text, animetyp1[1].text)
 print(animetyp[5].text, animetyp1[5].text)
-# animetyp1 = soup.find('div', class_= 'anime-info').find_all("dt")
-# print('Данное аниме \n' + animetyp, animetyp1)
-# animetyp1 = soup.find('div', class_= 'anime-info').find('dd')
-# print (animetyp1.text)
-# nazvanie = []
-# for news_item in news:
-#     # if news_item.find('h1', class_= '') is not None:
-#         # nazvanie.append(news_item.text)
-#         print (news_item[0].text)
